@@ -1,0 +1,17 @@
+{
+  "name": "rnelson0-custom_facts",
+  "version": "0.1.0",
+  "author": "rnelson0",
+  "summary": "Custom facts for roles and profiles",
+  "license": "Apache 2.0",
+  "source": "https://github.com/rnelson0/rnelson0-custom_facts",
+  "project_page": "https://github.com/rnelson0/rnelson0-custom_facts",
+  "issues_url": "https://github.com/rnelson0/rnelson0-custom_facts/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+
