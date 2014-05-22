@@ -4,3 +4,9 @@ if Facter.value(:hostname) =~ /^([a-z]+)[0-9]+$/
     setcode {$1}
   end
 end
+
+if Facter.value(:hostname) =~ /^([a-z]+)$/
+  Facter.add('puppet_role') do
+    setcode {$1}
+  end
+end
