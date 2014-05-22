@@ -5,6 +5,7 @@ if Facter.value(:hostname) =~ /^([a-z]+)[0-9]+$/
   end
 end
 
+# ([a-z]+), i.e. www or logger have a puppet_role of www or logger
 if Facter.value(:hostname) =~ /^([a-z]+)$/
   Facter.add('puppet_role') do
     setcode {$1}
